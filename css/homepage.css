@@ -234,6 +234,7 @@ header .top-navbar-desktop a{
 
     .view-all{
         text-decoration: none;
+        color:inherit;
     }
 
     .border-text{
