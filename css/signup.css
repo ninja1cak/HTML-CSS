@@ -1,0 +1,202 @@
+html{
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(../font/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+  font-family: 'Mullis';
+  src: url('../font/Mulish/static/Mulish-Regular.ttf');
+}
+
+
+.container{
+  display: flex;
+  
+}
+
+.home{
+  width: 60%;
+  height: 100vh;
+  background-color: rgba(43, 21, 107, 0.8);  
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  text-align: center; 
+  z-index: 1;
+}
+
+
+.home .tickitz{
+  width: 50%; /*50%*/
+  margin-left: 25%;
+
+  object-fit: cover;
+}
+
+
+.home .text-under-logo{
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2.3vw;
+  color: #fff;
+}
+
+
+.avenger{
+  position: absolute;
+  width: 60%;
+  height: 100vh;
+  object-fit:cover;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto 40px auto 40px;
+
+
+}
+
+.form .signUp{
+  font-family: 'Mullis';
+  font-weight: 700;
+  font-size: 3.8rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 5px;
+
+}
+
+.form .fill-your{
+  font-family: 'Inter';
+  font-size: 1.5rem;
+  color:#AAAAAA;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.form label{
+
+  font-family: 'Mullis';
+  font-size: 1.3rem;
+
+}
+
+.form .input-text{
+  width: 93%;
+  height: 40px;
+
+  padding-left: 20px;
+  border: 1px solid #dedede;
+  border-radius: 16px;
+  margin-top: 12px;
+}
+
+
+.container-fname{
+  top: 251px;
+  margin-bottom: 20px;
+
+}
+
+.container-lname, .container-phone-number, .container-email, .container-password{
+  margin-bottom: 20px;
+}
+
+.button-sign-up{
+  width: 98%;
+  height: 40px;
+
+  font-family: 'Mullis';
+  font-weight: 700;
+  color: #F7F7FC;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+
+
+  background:#5F2EEA ;
+  border: 1px solid #5F2EEA;
+  border-radius: 16px;
+}
+
+.text-already-have{
+
+  font-family: 'Inter';
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color:#8692A6
+  
+}
+
+a{
+  padding: 1px; 
+  border-bottom: 1px solid#5F2EEA;
+
+  color: #5F2EEA;
+}
+
+
+::placeholder{
+  font-family: 'Mullis';
+  font-size: 1.3rem;
+
+  color:#A0A3BD;
+}
+
+@media screen and (max-width: 800px) {
+  .home, .avenger {
+      width: 55vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home, .avenger{
+    width: 100%;
+    height: 20vh;
+  }
+
+  .home .tickitz{
+    width: 35%; /*50%*/
+    margin-left: 33%;
+  }
+  
+  
+  .home .text-under-logo{
+    font-size: 3vw;
+  }
+
+  .container{
+    flex-direction: column;
+  }
+
+  .form{
+    width: 90%;
+    margin: 10px auto 0px auto;
+  }
+  
+}
+
+@media screen and (max-height: 683px) {
+  .home, .avenger{
+    height: 700px;
+  }
+}
+
+
+  

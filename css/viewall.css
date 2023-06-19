@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #F5F6F8;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../font/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'Mullis';
+    src: url('../font/Mulish/static/Mulish-Regular.ttf');
+}
+
+header {
+    /* border:0.5em solid red; */
+
+    margin-bottom: 3em;
+    background-color: #fff;
+    
+}
+
+header .top-navbar-desktop{
+    /* border:0.5em solid blue; */
+    height: 8.5vh;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 5em;    
+}
+
+
+header .top-navbar-desktop img{
+    width: 10em;
+    object-fit: contain;
+    margin-left: 5rem;
+}
+
+header .top-navbar-desktop a{
+    font-family: 'Mullis';
+    font-size: 1em; 
+
+}
+
+.top-navbar-desktop button{    
+    margin-left: auto;
+    margin-right: 5rem;
+    background-color: #5F2EEA;       
+    width: 7rem;
+    height: 3em;
+    
+    font-family: 'Mullis';
+    letter-spacing: 0.1em;
+    border: 0px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.top-navbar-mobile {
+    display:none;
+    overflow: hidden;
+
+    border-bottom: 0.2rem solid #DEDEDE;
+    margin: 1rem 0rem;
+    padding: 1rem 0;
+    padding-left: 1rem;
+    background-color: white;
+
+    position: relative;
+
+  }
+  
+  .top-navbar-mobile #myLinks {
+    display: none;
+    text-align: center;
+    color: black;
+
+
+  }
+  
+  .top-navbar-mobile a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .top-navbar-mobile a.icon {
+
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    top:1rem;
+    right: 0rem;
+
+  }
+  
+  .top-navbar-mobile a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    color: white;
+    width: 10em;
+    object-fit: contain;
+  }
+
+.container-3{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+
+    /* border: 0.5em solid red */
+}
+
+.container-3  .section-month-button{
+    /* border: 0.5em solid red; */
+    display: flex;
+    gap: 10px;
+    padding:2em 5em 0 5em;
+    margin-bottom: 2em;
+}
+
+.container-3  .section-month-button button{
+    width: 500px;
+    height: 2.5em;
+    background: #F5F6F8;
+    
+    font-family: 'Mullis';
+    color:#5F2EEA;
+    border: 0.1em solid #5F2EEA;
+    border-radius: 5px;
+}
+
+.container-3 .section-banner-3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap:4em;
+    row-gap: 2em;
+    margin: 0 5em;
+    padding: 3em 1rem;
+    border-radius: 5px;
+    background-color: #fff;
+
+    .wrap-poster-title{     
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        padding:25px;
+        border: 1px solid #DEDEDE;
+        border-radius: 5px;        
+    }
+
+    .title-movie{
+        margin-top: 10px;
+    }
+}
+
+.poster{
+
+    width: 160px;
+    height: 250px;
+    z-index: 1;
+    object-fit: contain;
+}
+
+.title-movie{
+    width: 75%;
+    text-align: center; 
+    font-family: 'Mullis';
+    letter-spacing: 0.03em;
+    
+}
+
+.genre{
+    margin-top: 2px;
+    padding-bottom: 20px;
+    font-family:'Mullis';
+    font-size: 0.8em;
+    color:#A0A3BD;
+}
+
+.button-details{
+    
+    width: 160px;
+    height: 2.5em;
+    background-color: white;
+    
+    font-family: 'Mullis';
+    color:#5F2EEA;
+    border: 0.1em solid #5F2EEA;
+    border-radius: 5px;
+}
+
+.section-text-2{
+    /* border: 0.5em solid red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 5em 0 5em;
+    margin-bottom: 20px;
+    font-family: 'Mullis';
+    color:#5F2EEA;
+    .now-showing{      
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #5F2EEA;
+        margin-bottom: 0px;
+    }
+
+    .border-text{
+        border-bottom: 0.2em solid #5F2EEA;
+        margin:7px 30px 0 30px;
+    }
+}
+
+.section-page-button{
+    background: red;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.section-page-button button{
+    font-family: 'Mullis';
+    background-color: #fff;
+    font-size: 1rem;
+    border: 0px;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+footer{    
+    padding: 3em 0;
+    background: #fff;
+    /* border:0.5em solid blue;   */
+}
+
+.container-footer{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left:5em;
+    /* border:0.5em solid blue;     */
+    gap: 4em;
+}
+
+.container-footer .logo-tickitz-footer{
+    width: 12em;
+}
+
+.container-footer div img{
+    width: 7em;
+}
+
+.container-footer div{
+    display:flex;
+    flex-direction: column;
+    gap:1em;
+    /* border: 0.5em solid green; */
+}
+
+
+.text-logo-tickitz{
+    width: 20rem;
+}
+
+
+
+
+.container-footer nav{
+    display:flex;
+    flex-direction: column;
+    gap:1em;
+}
+
+
+.container-footer nav img{
+    width: 1em;
+}
+
+.container-footer p{
+    font-family: 'Mullis';
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+
+.container-footer a{
+    font-family: 'Mullis';
+    align-items: center;
+    color:#6E7191;
+}
+
+.footer-nav-social-media{
+    display: flex; align-items: center; gap:0.3em;
+}
+
+.copyright{
+    font-family: 'Mullis';
+    margin-top: 2em;
+    text-align: center;
+}
+
+@media screen and (max-width: 1099px) {
+    
+
+    header .top-navbar-desktop{
+        display: none;
+    }
+    header .top-navbar-desktop{
+        display:none;
+        
+    }
+
+    header .top-navbar-mobile{
+        display:block;
+
+
+    }
+    .container-1{
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+
+    }
+
+    .container-1 .section-text-1{
+        
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-1 .section-banner-1{
+        margin: 0;
+        /* margin-left: 5em; */
+    }
+    .container-3  .section-month-button{
+        display: inline-block;
+        /* border: 1px solid red; */
+        text-align: center;
+        padding: 1rem 0;
+        margin: 0 5em;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+
+    .container-3  .section-month-button button{
+        width: 80px;
+    }
+    .container-footer{
+        flex-direction: column;
+        .text-logo-tickitz{
+            width: auto;
+        }
+    }
+
+}
