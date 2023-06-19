@@ -33,6 +33,7 @@ header .top-navbar-desktop{
 header .top-navbar-desktop img{
     width: 10em;
     object-fit: contain;
+    margin-left: 5rem;
  
 }
 
@@ -61,7 +62,7 @@ header .top-navbar-desktop a{
     overflow: hidden;
 
     border-bottom: 0.2rem solid #DEDEDE;
-    margin: 1rem 0rem;
+
     padding: 1rem 0;
     padding-left: 1rem;
     background-color: white;
@@ -73,7 +74,8 @@ header .top-navbar-desktop a{
   .top-navbar-mobile #myLinks {
     display: none;
     text-align: center;
-    color: black;
+    font-family: 'Mullis';
+    color:#5F2EEA
 
 
   }

@@ -56,8 +56,10 @@ header .top-navbar-desktop a{
     margin-right: 8rem;
     background-color: #5F2EEA;       
     width: 7rem;
-    height: 3em;
-    
+    height: 3rem;
+
+    text-align: center;
+    text-decoration: none;
     font-family: 'Mullis';
     letter-spacing: 0.1em;
     border: 0px;
@@ -70,7 +72,6 @@ header .top-navbar-desktop a{
     overflow: hidden;
 
     border-bottom: 0.2rem solid #DEDEDE;
-    margin: 1rem 0rem;
     padding: 1rem 0;
     padding-left: 1rem;
     background-color: white;
@@ -82,7 +83,8 @@ header .top-navbar-desktop a{
   .top-navbar-mobile #myLinks {
     display: none;
     text-align: center;
-    color: black;
+    font-family: 'Mullis';
+    color:#5F2EEA
 
 
   }
@@ -122,7 +124,7 @@ header .top-navbar-desktop a{
     justify-content: space-between;
     padding: 5rem 0;
     flex-wrap: wrap;
-    border: 0.5em solid yellow
+    /* border: 0.5em solid yellow */
 }
 
 .container-1 .section-text-1{
@@ -147,7 +149,7 @@ header .top-navbar-desktop a{
 }
 
 .container-1 .section-banner-1{
-    border: 0.5em solid red;
+    /* border: 0.5em solid red; */
     display:flex;
     gap: 1em;
     margin-right: 14em;
@@ -228,6 +230,10 @@ header .top-navbar-desktop a{
         font-weight: 600;
         color: #5F2EEA;
         margin-bottom: 0px;
+    }
+
+    .view-all{
+        text-decoration: none;
     }
 
     .border-text{
