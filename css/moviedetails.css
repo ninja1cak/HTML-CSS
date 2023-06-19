@@ -431,5 +431,41 @@ footer{
     }
 }
 
+@media screen and (max-width: 500px){
+    .button-container-2 button{
+        width: 8rem;
+        height: 3rem;
+        font-size: 0.7rem;
+
+    }
+    .fa-angle-down{
+        margin-left: 1rem;
+    }
+
+    .fa-calendar{
+        margin-left: 1em;
+        margin-right: 1.5em;
+    }
+
+    .wrap-schedule{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: start;
+        margin-left: 0em;
+        margin-right: 0em;  
+    }
+}
+
+
+@media screen and (max-width: 800px) and (min-width:501px){
+    .wrap-schedule{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: start;
+        margin-left: 1em;
+        margin-right: 1em;  
+    }
+}
+
 
 
