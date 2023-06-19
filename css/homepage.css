@@ -584,3 +584,262 @@ footer{
         }
     }
 }
+
+@media screen and (max-width: 1220px) {
+    
+    .section-banner-2 .p1{
+        z-index: 20;
+    }
+
+    
+    .wrap-poster-title:hover .bp1{
+        z-index: 19;
+        padding-bottom: 20px;
+    }
+
+    .section-banner-2 .p2{
+        z-index: 18;
+    }
+
+    
+    .wrap-poster-title:hover .bp2{
+        z-index: 17;
+        padding-bottom: 20px;
+    }
+
+    .section-banner-2 .p3{
+        z-index: 16;
+    }
+
+    
+    .wrap-poster-title:hover .bp3{
+        z-index: 15;
+        padding-bottom: 20px;
+    }
+
+    .section-banner-2 .p4{
+        z-index: 14;
+    }
+
+    
+    .wrap-poster-title:hover .bp4{
+        z-index: 13;
+        padding-bottom: 20px;
+    }
+
+    .section-banner-2 .p5{
+        z-index: 12;
+    }
+
+    
+    .wrap-poster-title:hover .bp5{
+        z-index: 11;
+        padding-bottom: 20px;
+    }
+
+    .container-3 .section-banner-3{
+        margin: 0 5em;
+        overflow-x: scroll;
+        justify-content: start;
+        flex-wrap: nowrap;
+        gap: 2em;
+    }
+
+}
+
+@media screen and (max-width: 1099px) {
+    
+
+    header .top-navbar-desktop{
+        display: none;
+    }
+    header .top-navbar-desktop{
+        display:none;
+        
+    }
+
+    header .top-navbar-mobile{
+        display:block;
+
+
+    }
+    .container-1{
+        flex-direction: column;
+        text-align: center;
+        line-height: 75px;
+        justify-content: center;
+        gap: 5rem;
+
+    }
+
+    .container-1 .section-text-1{
+        
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-1 .section-banner-1{
+        margin: 0;
+        /* margin-left: 5em; */
+    }
+    .container-3  .section-month-button{
+        /* display: inline-block; */
+        /* border: 1px solid red; */
+        text-align: center;
+        padding: 1rem 0;
+        margin: 0 5em;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+
+    .container-3  .section-month-button button{
+        width: 100px;
+    }
+
+    .container-4 form input[type=text]{
+        width: 15em;
+    }
+    
+    .container-4 form input[type=submit]{
+        width: 6em;
+    }
+
+    .container-footer{
+        flex-direction: column;
+        .text-logo-tickitz{
+            width: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 700px){
+    .section-text-2{
+        font-size: 0.8em;
+        padding: 0 1em;
+    }
+
+    .container-3 .section-banner-3{
+        margin: 0 1em;
+ 
+    }
+
+}
+
+@media screen and (max-width: 420px){
+    .container-1 .section-text-1{
+
+        font-family: 'Mullis';
+        
+    
+        .nearest-cinema{
+            margin-bottom: -2.5em;
+            font-size: 1em;
+           
+            color:#A0A3BD;
+    
+        }
+    
+        .find-out{        
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 1000;
+            color:#5F2EEA;
+        }
+    }
+    
+    .container-1 .section-banner-1{
+        gap: 0.5em;
+        .shadow-banner-1{      
+            height: 250px;
+            background: black;
+            margin-top: 4em;
+            
+            border-radius: 10px;
+            
+        }
+    
+        .shadow-banner-2{      
+            height: 250px;
+            background: black;
+            margin: 2em 0 ;
+            
+            border-radius: 10px;
+            
+        }
+    
+        .shadow-banner-3{      
+            height: 250px;
+            background: black;
+            margin-bottom: 4em;
+            border-radius: 10px;
+            
+        }
+        .banner-1{
+            height: 250px;
+            border-radius: 10px;
+            opacity: 0.7;
+            box-shadow: 10px 10px 25px rgba(0,0,0,0.3);
+            object-fit: cover;
+            
+        }
+    
+        .banner-2{
+            height: 250px;
+            border-radius: 10px;
+            opacity: 0.7;
+            box-shadow: 10px 10px 25px rgba(0,0,0,0.3);
+            object-fit:cover;
+        }
+    
+        .banner-3{
+            height: 250px;
+            border-radius: 10px;
+            opacity: 0.7;
+            box-shadow: 10px 10px 25px rgba(0,0,0,0.3);
+            object-fit: cover;
+        }
+    
+    }
+
+    .container-4 p{
+        font-family: 'Mullis';
+        font-size: 1em;
+        color:#4E4B66;
+    }
+    
+    .container-4 .moviegoers{
+    
+        font-size: 2.5em;
+        color:#5F2EEA;
+    }
+    
+    .container-4 form input[type=text]{
+        padding-left: 20px;
+        margin-top: 2em;
+        width: 10em;
+        height: 3.5em;
+        font-family: 'Mullis';
+        border: 2px solid #DEDEDE;
+        border-radius: 5px;
+        color:#5F2EEA;
+    }
+    
+    .container-4 form input[type=submit]{
+        box-sizing: border-box;
+        width: 6em;
+        height: 3.5em;
+        background: #5F2EEA;;
+        margin-left: 10px;
+        font-size: 0.8em;
+        font-family: 'Mullis';
+        font-weight: 1000;
+        letter-spacing: 0.1em;
+    
+        border: 2px solid #5F2EEA;
+        border-radius: 5px;
+        color: #fff;;
+    }
+
+}
+
+
