@@ -723,9 +723,19 @@ footer{
  
     }
 
+    .container-3  .section-month-button{
+        /* display: inline-block; */
+        /* border: 1px solid red; */
+        text-align: center;
+        padding: 1rem 0;
+        margin: 0 1em;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 425px){
     .container-1 .section-text-1{
 
         font-family: 'Mullis';
