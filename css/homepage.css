@@ -285,7 +285,9 @@ header .top-navbar-desktop a{
         justify-content: flex-end;
         align-items: center;
         background:white;
-        padding:0 25px;
+        box-shadow: 0px 8px 30px rgba(186, 186, 186, 0.25);
+        padding:0 27px;
+        padding-bottom: 25px;
         border-radius: 5px;
         z-index: 0;
         
