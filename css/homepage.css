@@ -361,6 +361,13 @@ header .top-navbar-desktop a{
     border-radius: 5px;
 }
 
+.container-3  .section-month-button button:hover{
+    background-color: #5F2EEA;
+    color: #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(95, 46, 234, 0.3);
+
+}
+
 .container-3 .section-banner-3{
     display: flex;
     justify-content: center;

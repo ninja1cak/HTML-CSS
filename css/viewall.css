@@ -128,6 +128,13 @@ header .top-navbar-desktop a{
     margin-bottom: 2em;
 }
 
+.container-3  .section-month-button button:hover{
+    background-color: #5F2EEA;
+    color: #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(95, 46, 234, 0.3);
+
+}
+
 .container-3  .section-month-button button{
     width: 500px;
     height: 2.5em;
@@ -241,6 +248,13 @@ header .top-navbar-desktop a{
     height: 40px;
     width: 40px;
 }
+
+.section-page-button button:hover{
+    background-color:#5F2EEA;
+    color: white;
+
+}
+
 
 footer{    
     padding: 3em 0;
