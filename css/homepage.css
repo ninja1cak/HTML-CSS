@@ -819,6 +819,13 @@ footer{
         }
     
     }
+    .container-4{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
 
     .container-4 p{
         font-family: 'Mullis';
